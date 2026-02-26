@@ -1,0 +1,170 @@
+   0.021217083s  INFO prepare_target{force=false package_id=assignment1 v0.1.0 (/Users/piperinnshall/Developer/Rust/CGRA352/assignment1) target="assignment1"}: cargo::core::compiler::fingerprint: fingerprint error for assignment1 v0.1.0 (/Users/piperinnshall/Developer/Rust/CGRA352/assignment1)/Check { test: false }/TargetInner { name: "assignment1", doc: true, ..: with_path("/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/src/main.rs", Edition2024) }
+   0.021232750s  INFO prepare_target{force=false package_id=assignment1 v0.1.0 (/Users/piperinnshall/Developer/Rust/CGRA352/assignment1) target="assignment1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/.fingerprint/assignment1-da4eb822f81b29d4/bin-assignment1`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.038465833s  INFO prepare_target{force=false package_id=opencv v0.98.1 target="opencv"}: cargo::core::compiler::fingerprint: fingerprint error for opencv v0.98.1/Check { test: false }/TargetInner { doctest: false, ..: lib_target("opencv", ["lib"], "/Users/piperinnshall/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.98.1/src/lib.rs", Edition2021) }
+   0.038671667s  INFO prepare_target{force=false package_id=opencv v0.98.1 target="opencv"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/.fingerprint/opencv-264031a1e2fb4ff0/lib-opencv`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.038967917s  INFO prepare_target{force=false package_id=libc v0.2.182 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.182/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "/Users/piperinnshall/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.182/src/lib.rs", Edition2021) }
+   0.038972917s  INFO prepare_target{force=false package_id=libc v0.2.182 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/.fingerprint/libc-3e0ab479c69a6064/lib-libc`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.039891542s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "/Users/piperinnshall/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-traits-0.2.19/src/lib.rs", Edition2021) }
+   0.039896542s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/.fingerprint/num-traits-60c04ad9e53f4206/lib-num_traits`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.040969125s  INFO prepare_target{force=false package_id=opencv v0.98.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for opencv v0.98.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/piperinnshall/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.98.1/build.rs", Edition2021) }
+   0.040975667s  INFO prepare_target{force=false package_id=opencv v0.98.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/.fingerprint/opencv-282a124de34d13de/run-build-script-build-script-build`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::custom_build::build_work
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.043465958s  INFO prepare_target{force=false package_id=assignment1 v0.1.0 (/Users/piperinnshall/Developer/Rust/CGRA352/assignment1) target="assignment1"}: cargo::core::compiler::fingerprint: fingerprint error for assignment1 v0.1.0 (/Users/piperinnshall/Developer/Rust/CGRA352/assignment1)/Check { test: true }/TargetInner { name: "assignment1", doc: true, ..: with_path("/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/src/main.rs", Edition2024) }
+   0.043472625s  INFO prepare_target{force=false package_id=assignment1 v0.1.0 (/Users/piperinnshall/Developer/Rust/CGRA352/assignment1) target="assignment1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/.fingerprint/assignment1-154aca2977b9a5d7/test-bin-assignment1`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+    Checking libc v0.2.182
+    Checking num-traits v0.2.19
+   Compiling opencv v0.98.1
+error: failed to run custom build command for `opencv v0.98.1`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/build/opencv-5bd18935ef2d53ae/build-script-build` (signal: 6, SIGABRT: process abort signal)
+  --- stderr
+  dyld[13913]: Library not loaded: @rpath/libclang.dylib
+    Referenced from: <120E97EF-EB92-386D-9204-2AD0E1DF8D87> /Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/build/opencv-5bd18935ef2d53ae/build-script-build
+    Reason: tried: '/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/deps/libclang.dylib' (no such file), '/Users/piperinnshall/Developer/Rust/CGRA352/assignment1/target/debug/libclang.dylib' (no such file), '/Users/piperinnshall/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/aarch64-apple-darwin/lib/libclang.dylib' (no such file), '/Users/piperinnshall/.rustup/toolchains/stable-aarch64-apple-darwin/lib/libclang.dylib' (no such file), '/Users/piperinnshall/lib/libclang.dylib' (no such file), '/usr/local/lib/libclang.dylib' (no such file), '/usr/lib/libclang.dylib' (no such file, not in dyld cache)
