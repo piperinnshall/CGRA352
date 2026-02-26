@@ -10,8 +10,6 @@
     in {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = [
-          pkgs.rustc
-          pkgs.cargo
           pkgs.llvmPackages.libclang
           pkgs.opencv
           pkgs.pkg-config
