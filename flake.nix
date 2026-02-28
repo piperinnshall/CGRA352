@@ -16,6 +16,8 @@
         ];
 
         LIBCLANG_PATH = "${pkgs.llvmPackages.libclang.lib}/lib";
+        DYLD_LIBRARY_PATH = "${pkgs.llvmPackages.libclang.lib}";
+        PKG_CONFIG_PATH = "${pkgs.opencv}/lib/pkgconfig";
       };
     };
 }
